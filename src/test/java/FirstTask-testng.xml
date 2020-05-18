@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Task" verbose="1" parallel="tests" thread-count="2">
+    <test name="First test task for SoftSwiss Group. First Scenario.">
+        <classes>
+            <class name="tests.FirstScenario_Test"/>
+        </classes>
+    </test>
+    <test name="First test task for SoftSwiss Group. Second Scenario.">
+        <classes>
+            <class name="tests.SecondScenario_Test"/>
+        </classes>
+    </test>
+</suite>
