@@ -1,7 +1,8 @@
 package core;
 
 import com.google.common.base.Preconditions;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.SearchContext;
 
@@ -16,7 +17,7 @@ public class BasePage {
 
   private SearchContext searchContext;
 
-  protected Logger log = Logger.getLogger(BasePage.class);
+  protected Logger log = LogManager.getLogger();
 
   /**
    * When the search context is the driver itself
